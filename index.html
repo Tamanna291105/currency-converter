@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Price Calculator</title>
+  <link rel="stylesheet" href="Currency_converter.css">
+</head>
+<body>
+  <div class="container">
+  <h2>Crypto Price Calculator</h2>
+  <label>Coin Name:</label>
+  <input type="text" id="coin" placeholder="bitcoin">
+  <br><br>
+  <label>Currency:</label>
+  <input type="text" id="currency" placeholder="usd, inr">
+  <br><br>
+  <button onclick="getPrice()">Get Price</button>
+  <h3 id="result"></h3>
+  </div>
+  <script src="Currency_converter.js"></script>
+</body>
+</html>
