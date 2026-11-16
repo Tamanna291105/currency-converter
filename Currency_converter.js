@@ -3,6 +3,7 @@ function getPrice()
    var coin=document.getElementById("coin").value;
    var currency=document.getElementById("currency").value;
    console.log(coin);
+   
    console.log(currency);
    var url="https://api.coingecko.com/api/v3/simple/price?ids="+coin+"&vs_currencies="+currency;
     // Fetch data from api
